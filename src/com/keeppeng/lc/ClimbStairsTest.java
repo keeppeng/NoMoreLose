@@ -8,6 +8,8 @@ public class ClimbStairsTest {
 public ClimbStairs instance ;
     @Test
     public void climbStairs1() {
-        assertEquals(3,instance);
+        int i = instance.climbStairs(3);
+        System.out.println(i);
+
     }
 }
